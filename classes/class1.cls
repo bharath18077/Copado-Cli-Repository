@@ -4,5 +4,6 @@ public class class1
     {
         system.debug('hii hello all world all hi');
         system.debug('this is the new line we are adding');
+        system.debug('this is another line of code');
     }
 }
