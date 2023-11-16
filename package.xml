@@ -3,6 +3,7 @@
     <types>
         <members>custommetadatanewclass</members>
         <members>custommetadatatestclass</members>
+        <members>metadatanewclass</members>
         <name>ApexClass</name>
     </types>
     <types>

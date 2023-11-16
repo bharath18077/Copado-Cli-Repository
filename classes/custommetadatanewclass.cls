@@ -1,10 +1,14 @@
 /**
  * Apex class for applying discounts based on custom metadata rules.
+ * @description This class provides a method to apply discounts based on custom metadata rules
+ * for a given customer segment and product category.
  */
 public class custommetadatanewclass 
 {
       /**
      * Applies discounts based on custom metadata rules.
+     * @description This class provides a method to apply discounts based on custom metadata rules
+     * for a given customer segment and product category.
      * 
      * @param customerSegment The customer segment for which to apply the discount.
      * @param productCategory The product category for which to apply the discount.

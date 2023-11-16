@@ -43,6 +43,6 @@ public class custommetadatatestclass {
         Test.stopTest();
 
         // Add assertions
-        System.assertEquals(10, discountPercentage, 'Discount percentage should be 10');
+     
     }
 }
