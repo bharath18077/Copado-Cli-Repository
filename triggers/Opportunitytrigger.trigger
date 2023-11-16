@@ -15,7 +15,7 @@ trigger Opportunitytrigger on Opportunity (before insert, before update)
 
         // Iterate through opportunities and apply discounts
         for (Opportunity opp : opportunities) {
-            Decimal discount = custommetadata_newclass.applyDiscount(opp.customer_segment__c,opp.category__c);
+            Decimal discount = custommetadatanewclass.applyDiscount(opp.customer_segment__c,opp.category__c);
             opp.Discount_percentage__c = discount;  // Assuming there's a Discount__c field on Opportunity to store the discount
         }
     }
