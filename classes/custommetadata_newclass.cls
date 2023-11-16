@@ -10,8 +10,8 @@ public class custommetadata_newclass
                                           where Product_Segment__c =:customerSegment and
                                           category__C =: productcategory limit 1];
         system.debug(rules);
-        DiscountRule__c Detail = DiscountRule__c.getValues('new person');
-        DiscountRule__c Detail1 = DiscountRule__c.getValues('new person 1');
+        DiscountRule__c Detail = DiscountRule__c.getValues('new person');   // not used
+        DiscountRule__c Detail1 = DiscountRule__c.getValues('new person 1'); // not used
                                            
 
         // Apply discount based on rules

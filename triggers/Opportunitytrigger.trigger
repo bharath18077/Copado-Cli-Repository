@@ -2,7 +2,8 @@ trigger Opportunitytrigger on Opportunity (before insert, before update)
 {
    
 
-    public static void applyDiscounts(List<Opportunity> opportunities) {
+    public static void applyDiscounts(List<Opportunity> opportunities) {        // @description Bar
+
         Set<String> customerSegments = new Set<String>();
         Set<String> productCategories = new Set<String>();
 

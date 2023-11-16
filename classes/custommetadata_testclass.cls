@@ -17,7 +17,7 @@ public class custommetadata_testclass {
         decimal n=custommetadata_newclass.applyDiscount(rules.product_Segment__c,rules.Category__c);
         System.assertEquals(n,40.0);*/
        
-        Discount_Rule__mdt rule = new Discount_Rule__mdt(
+        Discount_Rule__mdt rule = new Discount_Rule__mdt(    // not used
             Rule_Name__c = Label.text1,
             Discount_Percentage__c =10,
             Product_Segment__c = Label.Product_segment,
