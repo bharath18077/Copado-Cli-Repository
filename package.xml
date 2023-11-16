@@ -2,8 +2,8 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>custommetadata_class</members>
-        <members>custommetadata_newclass</members>
-        <members>custommetadata_testclass</members>
+        <members>custommetadatanewclass</members>
+        <members>custommetadatatestclass</members>
         <name>ApexClass</name>
     </types>
     <types>
@@ -37,19 +37,11 @@
         <members>DiscountRule__c</members>
         <members>Discount_Rule__mdt</members>
         <members>Discount_label__c</members>
-        <members>NewDiscountRule__mdt</members>
         <name>CustomObject</name>
     </types>
     <types>
         <members>Discount_Rule__mdt-Discount Rule Layout</members>
-        <members>Opportunity-Formato de oportunidades</members>
         <name>Layout</name>
-    </types>
-    <types>
-        <members>Admin</members>
-        <members>Analytics Cloud Integration User</members>
-        <members>Analytics Cloud Security User</members>
-        <name>Profile</name>
     </types>
     <version>59.0</version>
 </Package>
