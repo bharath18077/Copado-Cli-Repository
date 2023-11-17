@@ -7,9 +7,7 @@ public class MetadataNewClass
 {
     /**
  * @description This class provides a method to apply discounts based on custom metadata rules
- * @param customerSegment The customer segment for which to apply the discount.
- * Applies discounts to a list of opportunities based on custom metadata rules.
- *@param opportunities List of opportunities to apply discounts to.
+ * @param opportunities List of opportunities to apply discounts to.
  */
    
     public static void applyDiscounts1(List<Opportunity> opportunities) {
