@@ -3,51 +3,7 @@
     <types>
         <members>CustomMetadataNewClass</members>
         <members>CustomMetadataTestClass</members>
-        <members>MetadataNewClass</members>
         <name>ApexClass</name>
-    </types>
-    <types>
-        <members>OpportunityTrigger</members>
-        <name>ApexTrigger</name>
-    </types>
-    <types>
-        <members>DiscountRule__c.Description__c</members>
-        <members>DiscountRule__c.Discount_Percentage__c</members>
-        <members>Discount_Rule__mdt.Discount_Percentage__c</members>
-        <members>Discount_Rule__mdt.Product_Category__c</members>
-        <members>Discount_Rule__mdt.Product_Segment__c</members>
-        <members>Discount_Rule__mdt.Product_Validity__c</members>
-        <members>Discount_Rule__mdt.Rule_Name__c</members>
-        <members>Discount_Rule__mdt.category__c</members>
-        <members>Discount_label__c.discount_description__c</members>
-        <members>Discount_label__c.discount_given__c</members>
-        <members>Opportunity.Discount_Percentage__c</members>
-        <members>Opportunity.category__c</members>
-        <members>Opportunity.customer_segment__c</members>
-        <name>CustomField</name>
-    </types>
-    <types>
-        <members>Product_segment</members>
-        <members>label_1</members>
-        <members>number</members>
-        <members>text1</members>
-        <name>CustomLabel</name>
-    </types>
-    <types>
-        <members>DiscountRule__c</members>
-        <members>Discount_Rule__mdt</members>
-        <members>Discount_label__c</members>
-        <members>NewDiscountRule__mdt</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>Discount_Rule__mdt-Discount Rule Layout</members>
-        <members>Opportunity-Formato de oportunidades</members>
-        <name>Layout</name>
-    </types>
-    <types>
-        <members>Admin</members>
-        <name>Profile</name>
     </types>
     <version>59.0</version>
 </Package>
