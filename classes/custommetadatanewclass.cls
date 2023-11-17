@@ -23,7 +23,7 @@ public class custommetadatanewclass
                                            FROM Discount_Rule__mdt 
                                           where Product_Segment__c =:customerSegment and
                                           category__C =: productcategory limit 1];
-        system.debug(rules);
+        //system.debug(rules);
         DiscountRule__c Detail = DiscountRule__c.getValues('new person');   // not used
         DiscountRule__c Detail1 = DiscountRule__c.getValues('new person 1'); // not used
                                            
@@ -37,7 +37,7 @@ public class custommetadatanewclass
         } else {
             System.debug('No discount rules found for the given criteria.');
         }
-		 system.debug(discountpercentage);
+		 //system.debug(discountpercentage);
         return discountPercentage;
        
     }

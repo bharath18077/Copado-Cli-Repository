@@ -7,7 +7,7 @@
         <name>ApexClass</name>
     </types>
     <types>
-        <members>Opportunitytrigger</members>
+        <members>OpportunityTrigger</members>
         <name>ApexTrigger</name>
     </types>
     <types>
