@@ -37,7 +37,6 @@
         <members>DiscountRule__c</members>
         <members>Discount_Rule__mdt</members>
         <members>Discount_label__c</members>
-        <members>NewDiscountRule__mdt</members>
         <name>CustomObject</name>
     </types>
     <types>
@@ -47,6 +46,8 @@
     </types>
     <types>
         <members>Admin</members>
+        <members>Analytics Cloud Integration User</members>
+        <members>Analytics Cloud Security User</members>
         <name>Profile</name>
     </types>
     <version>59.0</version>
