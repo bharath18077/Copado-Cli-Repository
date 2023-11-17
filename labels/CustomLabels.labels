@@ -1,3 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Product_segment</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_segment</shortDescription>
+        <value>test segment</value>
+    </labels>
+    <labels>
+        <fullName>label_1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>label_1</shortDescription>
+        <value>10</value>
+    </labels>
+    <labels>
+        <fullName>number</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>number</shortDescription>
+        <value>10</value>
+    </labels>
+    <labels>
+        <fullName>text1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>text1</shortDescription>
+        <value>Test Rule</value>
+    </labels>
+</CustomLabels>
