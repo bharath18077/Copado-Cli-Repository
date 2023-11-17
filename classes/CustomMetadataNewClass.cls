@@ -15,6 +15,7 @@ public without sharing class CustomMetadataNewClass
      * @return The total discount percentage applied.
      */
     public static Decimal applyDiscount(String customerSegment, String productCategory) {
+        
         Decimal discountPercentage = 0 ;
 
         // Query Custom Metadata for applicable rules
@@ -34,9 +35,9 @@ public without sharing class CustomMetadataNewClass
             for (Discount_Rule__mdt rule : rules) {
                 discountPercentage += rule.Discount_Percentage__c;
             }
-            System.debug(LoggingLevel.INFO, 'Discount Percentage: ' + discountPercentage);
+           // System.debug(LoggingLevel.INFO, 'Discount Percentage: ' + discountPercentage);
         } else {
-            System.debug(LoggingLevel.INFO, 'Discount Percentage: ' + discountPercentage);
+            //System.debug(LoggingLevel.INFO, 'Detail: ' + Detail.Discount_percentage__c);
         }
 		 //system.debug(discountpercentage);
         return discountPercentage;
