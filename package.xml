@@ -11,6 +11,11 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>Account-Account pagelayout</members>
+        <members>Account-Formato de cuentas</members>
+        <name>Layout</name>
+    </types>
+    <types>
         <members>Admin</members>
         <members>MarketingProfile</members>
         <members>New Marketing user custom profile</members>
