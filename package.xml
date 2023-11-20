@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>MathOperationAddClass</members>
-        <members>MathOperationAddTestClass</members>
-        <name>ApexClass</name>
-    </types>
-    <types>
         <members>Account.Contract_Close_date__c</members>
         <members>Account.Contract_Starting_date__c</members>
+        <members>Account.Information__c</members>
+        <members>Account.Language__c</members>
+        <members>Account.New_Annual_Revenue__c</members>
+        <members>Account.Project_status__c</members>
+        <members>Account.Work_description__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -16,11 +16,13 @@
         <name>Layout</name>
     </types>
     <types>
+        <members>Field_Permission_set</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
         <members>Admin</members>
-        <members>MarketingProfile</members>
         <members>New Marketing user custom profile</members>
         <members>New standard platform custom profile</members>
-        <members>Standard</members>
         <name>Profile</name>
     </types>
     <version>59.0</version>
