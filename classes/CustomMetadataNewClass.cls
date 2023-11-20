@@ -27,7 +27,7 @@ public without sharing class CustomMetadataNewClass
             List<Discount_Rule__mdt> rules = [SELECT Rule_Name__c, Discount_Percentage__c, Product_Segment__c, Product_Category__c, Product_Validity__c
                                               FROM Discount_Rule__mdt 
                                               WHERE Product_Segment__c = :customerSegment AND category__C = :productCategory LIMIT 1];
-            DiscountRule__c Detail = DiscountRule__c.getValues('newperson');  
+            DiscountRule__c detail = DiscountRule__c.getValues('newperson');  
             // Process rules...
             if (!rules.isEmpty()) {
                 for (Discount_Rule__mdt rule : rules) {
