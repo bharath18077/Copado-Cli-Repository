@@ -455,6 +455,16 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>New_field__c</fullName>
+        <externalId>false</externalId>
+        <label>New field</label>
+        <length>25</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>NumberOfEmployees</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>

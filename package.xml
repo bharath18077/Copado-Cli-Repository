@@ -6,6 +6,7 @@
         <members>Account.Information__c</members>
         <members>Account.Language__c</members>
         <members>Account.New_Annual_Revenue__c</members>
+        <members>Account.New_field__c</members>
         <members>Account.Project_status__c</members>
         <members>Account.Sample_text_field__c</members>
         <members>Account.Work_description__c</members>
