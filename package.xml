@@ -1,54 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>CustomMetadataNewClass</members>
-        <members>CustomMetadataTestClass</members>
-        <members>MetadataNewClass</members>
+        <members>MathOperationAddClass</members>
+        <members>MathOperationAddTestClass</members>
         <name>ApexClass</name>
     </types>
     <types>
-        <members>OpportunityTrigger</members>
-        <name>ApexTrigger</name>
-    </types>
-    <types>
-        <members>DiscountRule__c.Description__c</members>
-        <members>DiscountRule__c.Discount_Percentage__c</members>
-        <members>Discount_Rule__mdt.Discount_Percentage__c</members>
-        <members>Discount_Rule__mdt.Product_Category__c</members>
-        <members>Discount_Rule__mdt.Product_Segment__c</members>
-        <members>Discount_Rule__mdt.Product_Validity__c</members>
-        <members>Discount_Rule__mdt.Rule_Name__c</members>
-        <members>Discount_Rule__mdt.category__c</members>
-        <members>Discount_label__c.discount_description__c</members>
-        <members>Discount_label__c.discount_given__c</members>
-        <members>Opportunity.Discount_Percentage__c</members>
-        <members>Opportunity.category__c</members>
-        <members>Opportunity.customer_segment__c</members>
+        <members>Account.New_City__c</members>
+        <members>Account.New_State__c</members>
         <name>CustomField</name>
     </types>
     <types>
-        <members>Product_segment</members>
-        <members>label_1</members>
-        <members>number</members>
-        <members>text1</members>
-        <name>CustomLabel</name>
-    </types>
-    <types>
-        <members>DiscountRule__c</members>
-        <members>Discount_Rule__mdt</members>
-        <members>Discount_label__c</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>Discount_Rule__mdt-Discount Rule Layout</members>
-        <members>Opportunity-Formato de oportunidades</members>
+        <members>Account-Account pagelayout</members>
+        <members>Account-Formato de cuentas</members>
         <name>Layout</name>
     </types>
     <types>
-        <members>Admin</members>
-        <members>Analytics Cloud Integration User</members>
-        <members>Analytics Cloud Security User</members>
+        <members>New Marketing user custom profile</members>
+        <members>New standard platform custom profile</members>
+        <members>Standard</members>
         <name>Profile</name>
+    </types>
+    <types>
+        <members>Account.Rating_record_type</members>
+        <name>RecordType</name>
+    </types>
+    <types>
+        <members>AccountRating</members>
+        <name>StandardValueSet</name>
     </types>
     <version>59.0</version>
 </Package>

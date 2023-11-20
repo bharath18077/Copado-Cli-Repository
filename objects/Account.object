@@ -267,6 +267,150 @@
         <trackFeedHistory>true</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>New_City__c</fullName>
+        <externalId>false</externalId>
+        <label>New City</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>New_State__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Hyderabad</fullName>
+                    <default>false</default>
+                    <label>Hyderabad</label>
+                </value>
+                <value>
+                    <fullName>Secunderabad</fullName>
+                    <default>false</default>
+                    <label>Secunderabad</label>
+                </value>
+                <value>
+                    <fullName>Banglore</fullName>
+                    <default>false</default>
+                    <label>Banglore</label>
+                </value>
+                <value>
+                    <fullName>Manglore</fullName>
+                    <default>false</default>
+                    <label>Manglore</label>
+                </value>
+                <value>
+                    <fullName>Tiruvananthapuram</fullName>
+                    <default>false</default>
+                    <label>Tiruvananthapuram</label>
+                </value>
+                <value>
+                    <fullName>Kochi</fullName>
+                    <default>false</default>
+                    <label>Kochi</label>
+                </value>
+                <value>
+                    <fullName>Chennai</fullName>
+                    <default>false</default>
+                    <label>Chennai</label>
+                </value>
+                <value>
+                    <fullName>Madurai</fullName>
+                    <default>false</default>
+                    <label>Madurai</label>
+                </value>
+                <value>
+                    <fullName>Vizak</fullName>
+                    <default>false</default>
+                    <label>Vizak</label>
+                </value>
+                <value>
+                    <fullName>Vijayawada</fullName>
+                    <default>false</default>
+                    <label>Vijayawada</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Telangana</controllingFieldValue>
+                <valueName>Hyderabad</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Telangana</controllingFieldValue>
+                <valueName>Secunderabad</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Andhra Pradesh</controllingFieldValue>
+                <valueName>Vizak</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Andhra Pradesh</controllingFieldValue>
+                <valueName>Vijayawada</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Kerala</controllingFieldValue>
+                <valueName>Tiruvananthapuram</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Kerala</controllingFieldValue>
+                <valueName>Kochi</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tamil Nadu</controllingFieldValue>
+                <valueName>Chennai</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tamil Nadu</controllingFieldValue>
+                <valueName>Madurai</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Karnataka</controllingFieldValue>
+                <valueName>Banglore</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Karnataka</controllingFieldValue>
+                <valueName>Manglore</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>New_State__c</fullName>
+        <externalId>false</externalId>
+        <label>New State</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Telangana</fullName>
+                    <default>false</default>
+                    <label>Telangana</label>
+                </value>
+                <value>
+                    <fullName>Andhra Pradesh</fullName>
+                    <default>false</default>
+                    <label>Andhra Pradesh</label>
+                </value>
+                <value>
+                    <fullName>Kerala</fullName>
+                    <default>false</default>
+                    <label>Kerala</label>
+                </value>
+                <value>
+                    <fullName>Tamil Nadu</fullName>
+                    <default>false</default>
+                    <label>Tamil Nadu</label>
+                </value>
+                <value>
+                    <fullName>Karnataka</fullName>
+                    <default>false</default>
+                    <label>Karnataka</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>NumberOfEmployees</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -358,6 +502,78 @@
         </filters>
         <label>New This Week</label>
     </listViews>
+    <recordTypes>
+        <fullName>Rating_record_type</fullName>
+        <active>true</active>
+        <description>This record type has different rating values</description>
+        <label>Rating record type</label>
+        <picklistValues>
+            <picklist>New_City__c</picklist>
+            <values>
+                <fullName>Banglore</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chennai</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hyderabad</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kochi</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Madurai</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manglore</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Secunderabad</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tiruvananthapuram</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vijayawada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vizak</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>New_State__c</picklist>
+            <values>
+                <fullName>Andhra Pradesh</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Karnataka</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kerala</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tamil Nadu</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telangana</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>
