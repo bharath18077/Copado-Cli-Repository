@@ -16,6 +16,7 @@
         <name>Layout</name>
     </types>
     <types>
+        <members>New Marketing user custom profile</members>
         <members>New standard platform custom profile</members>
         <members>Standard</members>
         <name>Profile</name>
