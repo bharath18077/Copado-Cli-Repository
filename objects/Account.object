@@ -493,6 +493,16 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Sample_text_field__c</fullName>
+        <externalId>false</externalId>
+        <label>Sample text field</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>ShippingAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
