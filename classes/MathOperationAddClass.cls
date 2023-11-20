@@ -10,6 +10,8 @@ public class MathOperationAddClass
      * @param num1 The first integer.
      * @param num2 The second integer.
      * @return The sum of the two integers. Returns null if either input is null.
+     * @description This method provides the addition operation for two integers.
+
      */
      public Integer addNumbers(Integer num1, Integer num2) {
         if (num1 != null && num2 != null) {
