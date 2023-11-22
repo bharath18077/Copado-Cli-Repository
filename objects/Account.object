@@ -552,6 +552,17 @@
         <trackFeedHistory>false</trackFeedHistory>
         <type>TextArea</type>
     </fields>
+    <fields>
+        <fullName>field_1__c</fullName>
+        <externalId>false</externalId>
+        <label>field 1</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
     <listViews>
         <fullName>AllAccounts</fullName>
         <columns>ACCOUNT.NAME</columns>
